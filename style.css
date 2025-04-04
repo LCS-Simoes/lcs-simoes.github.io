@@ -1,0 +1,254 @@
+/* Configurações globais */
+
+*{
+    box-sizing: border-box;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+}
+
+.content-container {
+    width: 100%;
+    max-width: 1200px;
+}
+
+/* Área principal */
+
+.apresentacao{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+
+    padding: 10px;
+    max-width: 1100px;
+    width: 100%;
+    height: 100%;
+}
+
+.esquerda-principal {
+    display: flex;
+    flex-direction: column;
+    flex: 1;
+    max-width: 100%;
+    min-width: 400px;
+}
+
+.direita-principal {
+    display: flex;
+    flex-direction: column-reverse;
+    align-items: center;
+    margin: 75px;
+}
+
+
+body {
+    background-color: #F5F5F5;
+    color: #1E1E1E;
+    text-align: center;
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+section {
+    padding: 50px;
+    border-bottom: 2px solid #1E1E1E;
+}
+
+#inicial {
+    background-color: #2B2B2B;
+    color: #FAFAFA;
+}
+
+#habilidades{
+    background-color: #2B2B2B;
+    color: #FAFAFA;
+}
+
+#projetos{
+    background-color: #4C566A;
+    color: #EDEDED;
+}
+
+#imgApre{
+    width: 300px;
+    height: auto;
+}
+
+h1, h2, h3 {
+    font-family:Georgia, 'Times New Roman', Times, serif;
+}
+
+#titulo {
+    font-size: em;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-weight: bold;
+}
+
+#email {
+    margin-left: 8px;
+    margin-right: 7px;
+}
+
+.contatos {
+    position: relative;
+    display: flex;
+    flex: 1;
+}
+
+.contatos a {
+    display: inline-block;
+    margin-left: 8px;
+}
+
+.contatos img {
+    width: 45px; 
+    height: auto;
+    transition: transform 0.3s ease-in-out;
+}
+
+.contatos img:hover {
+    transform: scale(1.2); 
+}
+
+
+
+/* Área habilidades */
+
+.descricao-habilidades{
+    display: flex;
+    flex-direction: column;
+    justify-content: end;
+    height: 45%;
+    gap: 15px;
+    align-items: center;
+}
+
+.container-icones-habilidades {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    height: 70%;
+}
+
+#habilidades .descricao-habilidades > p {
+    font-size: 1.8em;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: #ffffff;
+}
+
+.content-container-habilidades {    
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.tamanho-icones {
+    margin: 30px;    
+    & p {
+        margin-top: 10px;
+        text-align: center;
+        color: antiquewhite;
+    }
+}
+
+.tamanho-icones img{
+    width: 60px;
+    height: 50px;
+    font-weight: bold;
+}
+
+/* projetos */
+
+.titulo-secao {
+    font-size: 2em;
+    margin-bottom: 30px;
+}
+
+.projetos-grid {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+}
+
+.projeto {
+    background: #2B2B2B;
+    border-radius: 10px;
+    width: 350px;
+    text-align: left;
+    overflow: hidden;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    transition: transform 0.3s ease;
+}
+
+.projeto:hover {
+    transform: scale(1.05);
+}
+
+.projeto img {
+    width: 100%;
+    height: 225px;
+    object-fit: cover;
+}
+
+.projeto-info {
+    padding: 15px;
+}
+
+.projeto-info h3 {
+    margin: 0;
+    font-size: 1.4em;
+}
+
+.projeto-info h3 span {
+    font-size: 1.2em;
+    color: #A3B18A;
+}
+
+.projeto-info p {
+    font-size: 1em;
+    margin: 10px 0;
+}
+
+.btn-projeto {
+    display: inline-block;
+    background: #dff395;
+    color: #1E1E1E;
+    padding: 8px 15px;
+    border-radius: 5px;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.btn-projeto:hover {
+    background: #fdff71;
+} 
+
+.dev-link {
+    font-weight: bold;  
+    color: #f6b4ff;    
+    text-decoration: none; 
+}
+
+.dev-link:hover {
+    color: #ca63f3;  
+    text-decoration: underline; 
+}
+
+.dev-link-j {
+    font-weight: bold;  
+    font-size: 0.9em;
+    color: #edff8a;    
+    text-decoration: none; 
+}
+
+.dev-link-j:hover {
+    color: #e0ff32;  
+    text-decoration: underline; 
+}
