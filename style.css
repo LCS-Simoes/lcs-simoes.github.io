@@ -76,7 +76,8 @@ section {
 
 #imgApre{
     width: 300px;
-    height: auto;
+    border-radius: 50%;
+    object-fit: cover;
 }
 
 h1, h2, h3 {
@@ -251,4 +252,19 @@ h1, h2, h3 {
 .dev-link-j:hover {
     color: #e0ff32;  
     text-decoration: underline; 
+}
+
+.tech-icons {
+    margin-top: 8px;
+    display: flex;
+    gap: 10px;
+    align-items: center;
+}
+.tech-icons img {
+    width: 28px;
+    height: 28px;
+    transition: transform 0.2s ease;
+}
+.tech-icons img:hover {
+    transform: scale(1.2);
 }
