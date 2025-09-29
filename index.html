@@ -6,6 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Lucas Simões</title>
     <link rel="stylesheet" href="style.css">
+     <link rel="icon" href="https://cdn.jsdelivr.net/gh/twitter/twemoji@14.0.2/assets/svg/1f680.svg" type="image/svg+xml">
 </head>
 
 <body>
@@ -14,17 +15,20 @@
             <div class="apresentacao">
                 <div class="esquerda-principal">
                     <h1>Analista e Desenvolvedor de Sistemas</h1>
-                    <p> Olá, eu sou o Lucas! Sou uma pessoa dedicada e responsável, sempre comprometido com as
-                        tarefas e objetivos que me são atribuídos. Minha curiosidade e vontade de aprender
-                        frequentemente me levam a superar expectativas.
-                        Valorizo muito o cumprimento de prazos e horários, e tenho um forte desejo de alcançar estágios
-                        avançados em minha carreira.
-                        Tenho uma grande paixão pela área de desenvolvimento em geral.
+                    <p> Olá, eu sou o Lucas! Sou uma pessoa dedicada e responsável, sempre comprometido com as tarefas e objetivos que me são atribuídos. Tenho curiosidade e vontade constante de aprender, o que me motiva a superar expectativas e evoluir a cada desafio.
+                    Valorizo o cumprimento de prazos e horários, além de buscar sempre entregar resultados de qualidade.
+                    Tenho uma grande paixão pela área de desenvolvimento e estou em busca da minha primeira oportunidade como programador, para aplicar meus conhecimentos, crescer profissionalmente e contribuir com soluções inovadoras.
                     </p>
+                    <h2>Estudante</h2>
+                    <p>Faculdade de Tecnologia de Americana Ministro Ralph Biasi
+                        6° Semestre
+                    <p>
+                    <h3>Caso tenha mais interesse, baixe meu curriculo abaixo</h3>
+                    <a href="curriculo-lucas.pdf" download class="btn-cv">📄 Currículo</a>
                 </div>
                 <div class="direita-principal">
                     <div>
-                        <p>Meios de Contatos</p>
+                        <h2>Meios de Contatos</h2>
                         <div class="contatos">
                             <a href="https://www.linkedin.com/in/lucas-sim%C3%B5es-1b7722237/" target="_blank">                         
                                 <img id="linkedin" src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/linkedin/linkedin-original.svg" alt="imgLinkedin"/>
@@ -36,7 +40,7 @@
                             <p>lucasbritosimoes@hotmail.com</p>
                         </div>
                     </div>
-                    <img id="imgApre" src="images/lucas.jpg" alt="imgApresentacao" class="avatar">
+                    <img id="imgApre" src="images/lucas.jpg" alt="imgApresentacao">
                     </a>
                 </div>
             </div>
@@ -45,21 +49,25 @@
     <section id="habilidades" class="container">
         <div class="content-container">
             <div class="descricao-habilidades">
-                <h2 class="titulo">Habilidades</h2>
-                <p>Linguagens nas quais possuo conhecimento ou domínio</p>
+                <h1 class="titulo">Habilidades</h1>
+                <p>Linguagens e Framework que eu utilizo</p>
             </div>
             <div class="container-icones-habilidades">
                 <div class="content-container-habilidades">
                     <div class="tamanho-icones">
-                        <img id="csharp" src="images/c-sharp.png" alt="Csharp">
+                        <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/csharp/csharp-original.svg" alt="Csharp" title="Csharp"/>
                         <p>C#</p>
                     </div>
                     <div class="tamanho-icones">
-                        <img id="html" src="images/html-5.png" alt="html">
+                        <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/dotnetcore/dotnetcore-original.svg" alt=".NET" title="dotnetcore"/>
+                        <p>Framework .NET</p>
+                    </div>
+                    <div class="tamanho-icones">
+                        <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/html5/html5-original.svg" alt="html" title="html"/>
                         <p>HTML</p>
                     </div>
                     <div class="tamanho-icones">
-                        <img id="css" src="images/css-3.png" alt="css">
+                        <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/css3/css3-original.svg" alt="css" title="css"/>  
                         <p>CSS</p>
                     </div>
                     <div class="tamanho-icones">
@@ -67,7 +75,7 @@
                         <p>BootStrap</p>
                     </div>
                     <div class="tamanho-icones">
-                        <img id="js" src="images/js.png" alt="JavaScript">
+                        <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/javascript/javascript-original.svg" alt="js" title="js"/>
                         <p>JavaScript</p>
                     </div>
                     <div class="tamanho-icones">
@@ -77,10 +85,6 @@
                     <div class="tamanho-icones">
                         <img id="git" src="images/social.png" alt="git">
                         <p>Git</p>
-                    </div>
-                    <div class="tamanho-icones">
-                        <img id="android" src="images/android.png" alt="android">
-                        <p>Android</p>
                     </div>
                     <div class="tamanho-icones">
                         <img id="sql" src="images/database.png" alt="SQL">
@@ -94,7 +98,6 @@
     <section id="projetos" class="container">
         <div class="content-container">
             <h2 class="titulo-projeto">Projetos Desenvolvidos e Artigo</h2>
-
             <div class="projetos-grid">
                 <div class="projeto">
                     <img src="images/garra.png" alt="Projeto 1">
@@ -124,8 +127,13 @@
                         <h3><span>📁</span>Cadastro de Clientes </h3>
                         <p>Este projeto consiste em um sistema de cadastro de clientes desenvolvido em C para console,
                             utilizando manipulação de arquivos para armazenar os registros.
-                            Ele permite realizar operações como inclusão, consulta, alteração e remoção de clientes.
-                        <br><strong>Tecnologias utilizadas:</strong>
+                            Ele permite realizar operações: 
+                            <li>Criação</li>
+                            <li>Leitura</li>
+                            <li>Atualização</li>
+                            <li>Exclusão</li>
+
+                        <br><strong>Tecnologia utilizada:</strong>
                             <div class="tech-icons">
                                 <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/c/c-original.svg" alt="C" title="Linguagem C">
                             </div>

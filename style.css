@@ -85,7 +85,7 @@ h1, h2, h3 {
 }
 
 #titulo {
-    font-size: em;
+    font-size: 500px;
     font-family: Georgia, 'Times New Roman', Times, serif;
     font-weight: bold;
 }
@@ -165,6 +165,12 @@ h1, h2, h3 {
 }
 
 /* projetos */
+
+.titulo-projeto{
+    font-size: 2em;
+    margin-bottom: 30px;
+}
+
 
 .titulo-secao {
     font-size: 2em;
@@ -267,4 +273,20 @@ h1, h2, h3 {
 }
 .tech-icons img:hover {
     transform: scale(1.2);
+}
+
+.btn-cv {
+    display: inline-block;
+    margin-top: 20px;
+    background: #5FA8D3;
+    color: #fff;
+    padding: 12px 20px;
+    border-radius: 8px;
+    font-weight: bold;
+    text-decoration: none;
+    transition: background 0.3s ease;
+}
+.btn-cv:hover {
+    background: #FFD166;
+    color: #1E1E1E;
 }
